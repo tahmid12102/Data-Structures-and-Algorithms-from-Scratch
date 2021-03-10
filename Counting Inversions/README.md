@@ -8,3 +8,5 @@ The inversion problem takes an input array, A, of size n in some arbitrary order
 
 **private static long countSplitInv(int [] arr, int first, int mid, int last)** - Splits input array to left and right subarrays, sorts by merging, and returns number of inversions in the process.
 
+**public static void main(String[] args)** - Reads IntegerArray.txt, stores values in an array,calculates number of inversions using sortAndCount, and prints results to command line.
+
