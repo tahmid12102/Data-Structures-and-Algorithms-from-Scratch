@@ -48,7 +48,7 @@ public class Vertex{
         }
 
         //Check if newEdge involes this vertex
-        if (newEdge.end1() != this && newEdge.end1() != this){
+        if (newEdge.end1() != this && newEdge.end2() != this){
             throw new IllegalArgumentException("Input edge does not involve this vertex");
         }
 
